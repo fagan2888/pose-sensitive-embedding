@@ -9,7 +9,7 @@ If you find our work helpful in your research, please cite:
 ```
 M. Saquib Sarfraz, Arne Schumann, Andreas Eberle, Ranier Stiefelhagen,
 "A Pose Sensitive Embedding for Person Re-Identification with Exapanded Cross Neighborhood Re-Ranking",
-arxiv 2017
+https://arxiv.org/abs/1711.10378 2017
 ```
 
 
@@ -90,6 +90,13 @@ To predict the features, run the `predictor_preid.py` script:
 
 The predicted features will be stored in a subfolder of the specified `model-dir` called `predictions`.
 
+
+### Download precomputed PSE features for Market-1501 and Duke datasets
+You can download our deployed PSE model's features for Duke and Market here
+
+https://drive.google.com/drive/folders/1uyTMejyhpkPD8L-v8JJ9JOECrEIYZPCI?usp=sharing
+
+Please see [Expanded Cross Neighborhood Re-Ranking](https://github.com/pse-ecn/expanded-cross-neighborhood) to evaluate and reproduce the results.
 
 
 ### General Notes
